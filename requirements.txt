@@ -1,5 +1,5 @@
 wheel
-pkg-config
+pkgconfig
 absl-py==2.1.0
 aiohappyeyeballs==2.4.4
 aiohttp==3.11.11
