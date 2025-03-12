@@ -1,5 +1,7 @@
 from .base import *
 import environ
+import pymysql
+pymysql.install_as_MySQLdb()
 
 env = environ.Env()
 environ.Env.read_env(BASE_DIR / ".env")  # Ensure your .env file is read
